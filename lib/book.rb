@@ -2,14 +2,14 @@ class Book
   attr_accessor :author, :page_count, :genre
   attr_reader :title
 
-  @@genreArray = []
+  @@GENRES = []
 
   def initialize(title)
     @title = title
   end
   def genre=(genreInput)
     @genre = genreInput
-    @@genreArray << @genre
+    @@GENRES << @genre
   end 
 
   def turn_page
