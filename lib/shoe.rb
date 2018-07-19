@@ -6,7 +6,9 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS ||= brand
+    brands.map do |brand|
+      brands.
+    end 
   end
 
   def cobble
