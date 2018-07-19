@@ -6,8 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    brands.map do |brand|
-      brands.
+    (brands << brand).uniq
     end 
   end
 
